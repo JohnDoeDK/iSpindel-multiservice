@@ -1,0 +1,21 @@
+{
+  "serverPath": "/mySpindel",
+  "services": [
+    {
+      "type": "http",
+      "deviceLabel": "iSpindel",
+      "url": "http://community.grainfather.com/iot/12752/ispindel"
+    },
+    {
+      "type": "http",
+      "deviceLabel": "iSpindel SG",
+      "url": "http://log.brewfather.net/ispindel?id=kMNoMYvZgj5WeO"
+    },
+    {
+      "type": "homeassistant",
+      "deviceLabel": "iSpindel",
+      "url": "192.168.1.186:8123",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIyOWUzNWQ2NzI4MTY0ODY3OTgwMGE4ODQ5OTlhMTJiMCIsImlhdCI6MTY5NTkwMzE4MiwiZXhwIjoyMDExMjYzMTgyfQ.ADApjPggEMlZ-Y83a9Wzm7xjEhKYl5sSl-urT7oMD_o"
+    }
+  ]
+}
